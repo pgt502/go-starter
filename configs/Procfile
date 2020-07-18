@@ -1,0 +1,2 @@
+helloserver: ./scripts/run_service.sh cmd/helloserver/main.go -a :$HELLO_SERVICE_PORT
+helloclient: ./scripts/run_service.sh cmd/helloclient/main.go
