@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package hello;
+
+option go_package = "github.com/pgt502/go-starter/internal/app/hello/pb";
+  
+import "types.proto";
+
+service HelloService {
+    rpc Hello(HelloRequest) returns (HelloResponse);
+}
